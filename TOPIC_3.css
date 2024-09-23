@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins";
+}
+body{
+    background-size: cover;
+    background-image: url(img/plan-dice-760.jpg);
+}
+.ATLANTIS{
+    color:white;
+    padding-left: 100px;
+    padding-top: 37px;
+    font-size: 60px;
+    font-family:cursive ;
+}
+h3{
+    font-size: 27px;
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    padding-left: 100px;
+    padding-top: 27px;
+}
+header h1{
+    color: white;
+    font-size: 35px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+header nav{
+    height: 15vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    gap: 5rem;
+    list-style: none;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    padding: .5rem 1.5rem;
+    border-radius: .1rem;
+    transition: .1s ease-in;
+    box-shadow: 5px 5px 15px;
+    border-radius: 5px;
+}
+
+header ul li:nth-child(4) a{
+    background: rgba(255, 255, 255, 0.471);
+    color: #D12027;
+}
+
+header a:hover{
+    background: rgba(255, 255, 255, 0.471);   
+    color: #D12027;
+}
+
+
+
+/* footer{
+    width: 100%;
+    height: 15vh;
+    background: #282828;
+    display: flex;
+    align-items: center;
+    
+  } */
+  /* .foot ul h3{
+    color: #fff;
+    font-weight: 450;
+  }
+  .foot ul li{
+    list-style: none;
+    line-height: 2.5rem;
+  }
+  .foot ul li a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .foot ul li a .fab{
+    font-size: 1.2rem;
+    color: #FEC53A;
+    margin-right: 15px;
+  }
+  .foot ul li a:hover{
+    color: #FEC53A;
+  } */
+  .footer-bottom{
+    width: 100%;
+    height: 7vh;
+    background: #1B1919;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+    margin-top: 70px;
+  }
+  .footer-bottom span{
+    color: #FEC53A;
+    font-weight: bold;
+  }
+  
+
+
+  /* From Uiverse.io by Pradeepsaranbishnoi */ 
+/* From Uiverse.io by gagan-gv */ 
+/* .spinner {
+  height: 50px;
+  width: max-content;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: monospace;
+  letter-spacing: 1em;
+  color: whitesmoke;
+  filter: drop-shadow(0 0 10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 100px;
+ }
+ 
+ .spinner span {
+  animation: loading6454 1.75s ease infinite;
+ }
+ 
+ .spinner span:nth-child(2) {
+  animation-delay: 0.25s;
+ }
+ 
+ .spinner span:nth-child(3) {
+  animation-delay: 0.5s;
+ }
+ 
+ .spinner span:nth-child(4) {
+  animation-delay: 0.75s;
+ }
+ 
+ .spinner span:nth-child(5) {
+  animation-delay: 1s;
+ }
+ 
+ .spinner span:nth-child(6) {
+  animation-delay: 1.25s;
+ }
+ 
+ .spinner span:nth-child(7) {
+  animation-delay: 1.5s;
+ }
+ .spinner span:nth-child(8) {
+  animation-delay: 1.75s;
+ }
+ .spinner span:nth-child(9) {
+  animation-delay: 2s;
+ }
+ .spinner span:nth-child(10) {
+  animation-delay: 2.25s;
+ }
+ .spinner span:nth-child(11) {
+  animation-delay: 2.5s;
+ }
+ .spinner span:nth-child(12) {
+  animation-delay: 2.75s;
+ }
+ .spinner span:nth-child(13) {
+  animation-delay: 3s;
+ }
+ .spinner span:nth-child(14) {
+  animation-delay: 3.25s;
+ }
+ .spinner span:nth-child(15) {
+  animation-delay: 3.5s;
+ }
+ 
+ @keyframes loading6454 {
+  0%, 100% {
+   transform: translateY(0);
+  }
+ 
+  50% {
+   transform: translateY(-10px);
+  }
+ } */
+
+  /* From Uiverse.io by omar-alghaish */ 
+@keyframes animate8345 {
+  0%,100% {
+    filter: hue-rotate(0deg);
+  }
+
+  50% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.loader {
+  color: rgb(0, 0, 0);
+  background: linear-gradient(to right, #2d60ec, #3ccfda);
+  font-size: 40px;
+  margin-left: 80px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: animate8345 9s linear infinite;
+  font-weight: bold;
+}
+
+
+/* From Uiverse.io by guilhermeyohan */ 
+.subscribe {
+  position: relative;
+  height: 140px;
+  width: 550px;
+  padding: 20px;
+  /* background-color: #FFF; */
+  border-radius: 4px;
+  color: #333;
+  box-shadow: 0px 0px 60px 5px rgba(0, 0, 0, 0.4);
+  margin-left: 100px;
+}
+
+.subscribe:after {
+  position: absolute;
+  content: "";
+  right: -10px;
+  bottom: 18px;
+  width: 0;
+  height: 0;
+  border-left: 0px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #1a044e;
+}
+
+.subscribe p {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  line-height: 28px;
+}
+
+.subscribe input {
+  position: absolute;
+  bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #d4d4d4;
+  padding: 10px;
+  width: 82%;
+  background: transparent;
+  transition: all .25s ease;
+}
+
+.subscribe input:focus {
+  outline: none;
+  border-bottom: 1px solid #0d095e;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'sans-serif';
+}
+
+.subscribe .submit-btn {
+  position: absolute;
+  border-radius: 30px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  background-color: #0f0092;
+  color: #FFF;
+  padding: 12px 25px;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  right: -10px;
+  bottom: -20px;
+  cursor: pointer;
+  transition: all .25s ease;
+  box-shadow: -5px 6px 20px 0px rgba(26, 26, 26, 0.4);
+}
+
+.subscribe .submit-btn:hover {
+  background-color: #07013d;
+  box-shadow: -5px 6px 20px 0px rgba(88, 88, 88, 0.569);
+}

@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+body, html, :root{
+    height: 100%;
+}
+
+body{
+    color: white;
+}
+
+header{
+    background-image: url(img/how-make-your-student-activities-count.jpg);
+    background-size: cover;
+}
+header nav{
+    height: 15vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    font-size: 35px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+header ul{
+    display: flex;
+    gap: 5rem;
+    list-style: none;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    padding: .5rem 1.5rem;
+    border-radius: .1rem;
+    transition: .1s ease-in;
+    box-shadow: 5px 5px 15px;
+    border-radius: 5px;
+}
+
+header ul li:nth-child(1) a{
+    background: rgba(255, 255, 255, 0.471);
+    color: #D12027;
+}
+
+header a:hover{
+    background: rgba(255, 255, 255, 0.471);   
+    color: #D12027;
+}
+/* ----------------------------------------------------------------- */
+section{
+    min-height: 85vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section img{
+    width: 450px;
+    min-width: 300px;
+}
+/* ----------------------------------------------- */
+#sec {
+    width: 80%;
+    margin-top: 20px;
+    min-height: 55vh;
+    border-radius: 30px;
+    background-color: rgba(45, 85, 131, 0.397);
+}
+.sec {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.sec-caption {
+    margin-top: 40px;
+    width: 50%;
+    position: absolute;
+    top: 7%;
+    left: 7%;
+}
+.sec-caption h1 {
+    position: relative;
+    color:rgb(14, 24, 58);
+}
+
+.sec-caption li {
+    margin: 20px 50px;
+    letter-spacing: 1px;
+    color: rgb(26, 36, 70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    z-index: -1;
+}
+.sec-image {
+    width: 30%;
+    position: absolute;
+    top: 7%;
+    right: 8%;
+}
+.sec-image img {
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px;
+}
+/* ------------------------------------------------------ */
+.hero {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #151138;
+}
+.hero-image img {
+    margin-top: 5px;
+    width: 675px;
+    height: 500px;
+}
+
+.hero-content {
+    max-width: 50%;
+    margin-left: 30px;
+}
+
+.hero-content h2 {
+    color: #e91e63;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #e91e63;
+    color: #e91e63;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: #e91e63;
+    color: #fff;
+}
+#btn2 {
+    padding: 10px 20px;
+    margin-left: 190px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff80;
+    text-shadow: none;
+    background: transparent;
+    cursor: pointer;
+    box-shadow: transparent;
+    border: 1px solid #ffffff80;
+    transition: 0.5s ease;
+    user-select: none;
+  }
+  
+  #btn2:hover,
+  :focus {
+    color: #ffffff;
+    background: #008cff;
+    border: 1px solid #008cff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
+      0 0 100px #008cff;
+  }
+
+  footer{
+    width: 100%;
+    height: 55vh;
+    background: #282828;
+    display: flex;
+    align-items: center;
+    
+  }
+  .footer-body{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer-logo{
+    height: 12vh;
+    background-color: #FEC53A;
+    color: #000;
+    line-height: 1rem;
+    font-size: small;
+  }
+  /* .foot ul h3{
+    color: #fff;
+    font-weight: 450;
+  }
+  .foot ul li{
+    list-style: none;
+    line-height: 2.5rem;
+  }
+  .foot ul li a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .foot ul li a .fab{
+    font-size: 1.2rem;
+    color: #FEC53A;
+    margin-right: 15px;
+  }
+  .foot ul li a:hover{
+    color: #FEC53A;
+  } */
+  .footer-bottom{
+    width: 100%;
+    height: 7vh;
+    background: #1B1919;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+  }
+  .footer-bottom span{
+    color: #FEC53A;
+    font-weight: bold;
+  }
+  
+  /* From Uiverse.io by ayman-ashine */ 
+.loader {
+    --c-1: #a2ff37;
+    --c-2: #5bb2ff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .layer {
+    font-size: 35px;
+    font-family: "Segoe UI", Tahoma;
+    font-weight: 800;
+    text-transform: uppercase;
+    position: absolute;
+  }
+  
+  .layer:nth-child(1) {
+    color: var(--c-1);
+    animation: kfs-3412 0.5s infinite;
+  }
+  
+  .layer:nth-child(2) {
+    color: var(--c-2);
+    animation: kfs-3412 0.5s 0.25s infinite;
+  }
+  
+  @keyframes kfs-3412 {
+    0% {
+      text-shadow: 0 0 30px var(--c-1);
+      transform: scaleY(0);
+      z-index: 2;
+    }
+    50% {
+      transform: scaleY(1.5);
+      z-index: 2;
+    }
+    100% {
+      transform: scaleY(1.5);
+      z-index: 0;
+    }
+  }
+  
